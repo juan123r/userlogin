@@ -33,7 +33,7 @@ loginCommands: [ ]
 
 # Kick players after some time (seconds)
 # Set as -1 to disable
-timeout: 60
+timeout: 40
 
 # Allows auto-login for players that join from the same
 # IP address within a timeframe. (Specify in seconds)
@@ -107,7 +107,7 @@ teleports:
   # The savePosition mode teleports players
   # to their last position when they log in.
   # Useful for survival servers and similar.
-  savePosition: false
+  savePosition: true 
 
   # Teleport players to the position set with
   # "/ul set prelogin" on join.
